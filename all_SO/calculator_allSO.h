@@ -7,7 +7,7 @@ private:
     std::string pantalla;
 
     bool esOperador(char c);
-    double evaluarExpresion(const std::string& expr);
+    double resultadoExpresion(const std::string& expr);
 public:
     Calculadora();
 
@@ -21,8 +21,7 @@ public:
 
     void inverso();        // 1/x
     void porcentaje();     // %
-    void igual();          // =
-
+    void igual();     // =
     std::string obtenerPantalla() const;
 
 

@@ -4,7 +4,7 @@
 #include <wx/wx.h>
 #include "calculator_allSO.h"
 
-class Ventana : public wxFrame {
+class Windows : public wxFrame {
 private:
     wxTextCtrl* display;
     Calculadora calc;
@@ -13,7 +13,7 @@ private:
     void OnButton(wxCommandEvent& event);
 
 public:
-    Ventana();
+    Windows();
 };
 
 #endif

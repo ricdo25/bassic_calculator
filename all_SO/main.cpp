@@ -4,8 +4,8 @@
 class App : public wxApp {
 public:
     bool OnInit() override {
-        Ventana* ventana = new Ventana();
-        ventana->Show(true);
+        Windows* windows = new Windows();
+        windows->Show(true);
         return true;
     }
 };
